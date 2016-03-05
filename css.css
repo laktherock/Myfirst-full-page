@@ -1,0 +1,96 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	background-image: url('1.jpeg');
+	background-attachment: fixed;
+}
+header{
+	padding: 20px;
+	position: fixed;
+	background-color: #18BC9C;
+	width: 100%;
+	z-index: 9999;
+}
+.slider{
+	height: 680px;
+	background: transparent;
+}
+#logo{
+	font-family: 'Oleo Script Swash Caps', sans-serif;
+	font-weight: 500px;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+nav{
+	margin: 0px;
+	padding: 0px;
+}
+ul{
+	list-style-type: none;
+	float: left;
+	position: absolute;
+	top: 26px;
+	left: 648px;
+	}
+nav ul li{
+	padding: 8px;
+	display: inline-block;
+	text-decoration: none;
+}
+nav ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 19px;
+	font-family: 'arial', sans-serif;
+	color: #000000;
+}
+nav ul li a:hover{
+	text-decoration: none;
+	color: white;
+}
+.row{
+	padding: 100px;
+}
+section{
+	background-color: #EEF7F4;
+}
+.contact{
+	background-color: #F1494C;
+	height: 628px;
+	text-align: center;
+}
+.contact h1{
+	padding-top:60px;
+}
+footer{
+	padding: 5px;
+	background-color: black;
+	margin-bottom: 0px;
+}
+.foot{
+	font-weight: 50;
+	font-size: 16px;
+	color: white;
+	padding: 6px;
+}
+footer span{
+	float: right;
+	text-align: right;
+}
+section p{
+	font-size: 16px;
+}
+article p{
+	font-size: 16px;
+	color: #FDE9EB;
+}
+article h2{
+	color: #FDE9EB;
+}
+.contact form a{
+	border: 3px solid #fff;
+	padding: 30px;
+	text-align: center;
+
+}
